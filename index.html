@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/estilos.css">
+</head>
+
+<body>
+    <div class="fondo-negro">
+        <div class="container h-100">
+            <div class="row h-20 d-flex align-items-end  justify-content-end">
+                <img src="http://via.placeholder.com/80x80" class="rounded logo-img" alt="...">
+                <img src="http://via.placeholder.com/80x80" class="rounded logo-img" alt="...">
+            </div>
+            <div class="row h-75 justify-content-center">
+                <div class="col-12">
+                    <img src="http://via.placeholder.com/350x150" class="rounded mx-auto d-block" alt="...">
+                    <p class="text-center principal-text">Titulo Principal</p>
+                    <p class="text-center secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button id="btn-menu" type="button" class="btn btn-outline-light flex-center btn-principal-page">¡Vamos, entra!</button>
+                </div>
+            </div>
+            <div class="row h-5 justify-content-center align-items-center">
+                <div class="col-12 text-center">    
+                    <span id="creditos" class="creditosTxt">Créditos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Créditos -->
+    <div class="modal fade" id="modal_creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Créditos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="creditos-contenedor" class="row">
+                        <div class="col-6 text-center">
+                            <img data-src="holder.js/200x200" class="rounded creditos-img" alt="200x200" style="width: 100px; height: 100px;" src="public/img/luis.jpg" data-holder-rendered="true">
+                            <p class="margin-credits">Luis Jorge Lozano Domínguez</p>
+                            <a href="mailto:lozanoluisjorge@gmail.com">lozanoluisjorge@gmail.com</a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img data-src="holder.js/200x200" class="rounded creditos-img" alt="200x200" style="width: 100px; height: 100px;" src="public/img/mauricio.jpg" data-holder-rendered="true">
+                            <p class="margin-credits">Mauricio Arturo Ibarra Corona</p>
+                            <a href="mailto:mauricio_ic19@outlook.com">mauricio_ic19@outlook.com</a>
+                        </div>
+                    </div>
+                    <div class="row top-buffer"></div>
+                    <div class="col-12 text-center">
+                        
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="public/js/index-functions.js"></script>
+
+</html>

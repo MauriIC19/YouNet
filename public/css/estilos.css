@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*
+{
+    font-family: 'Dosis';
+}
+
+body,
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    background-image: url('../../public/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo-negro
+{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.flex-center
+{
+    display: flex;
+
+    margin: auto;
+
+    justify-content: center;
+}
+
+.h-95
+{
+    height: 95% !important;
+}
+
+.h-20
+{
+    height: 20% !important;
+}
+
+.h-5
+{
+    height: 5% !important;
+}
+
+/* ----- Estilos ----- */
+
+.logo-img{
+    margin: 10px;
+}
+
+.principal-text
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+
+    letter-spacing: .2rem;
+
+    color: white;
+}
+
+.secondary-text
+{
+    font-size: 1rem;
+    font-weight: 300;
+
+    width: 60%;
+    margin: auto;
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+    margin-bottom: 20px;
+
+    letter-spacing: .2rem;
+
+    color: white;
+}
+
+.btn-principal-page
+{
+    margin-top: 4rem;
+
+    letter-spacing: .15rem;
+}
+
+.margin-credits
+{
+    margin-top: 0;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.creditosTxt
+{
+    cursor: pointer;
+
+    color: white !important;
+}
+
+#creditos-contenedor p{
+    display: inline-flex;
+}
+
+#creditos-contenedor a{
+    display: inline-flex;
+}
+
+#creditos-contenedor img{
+    display: flex;
+    margin: auto;
+}
+
+.menu-option
+{
+    max-width: calc(33.333333% - 30px) !important;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    padding: 0 !important;
+
+    cursor: pointer;
+}
+
