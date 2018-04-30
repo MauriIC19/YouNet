@@ -55,7 +55,8 @@ body
 
 /* ----- Estilos ----- */
 
-.logo-img{
+.logo-img
+{
     margin: 10px;
 }
 
@@ -109,16 +110,20 @@ body
     color: white !important;
 }
 
-#creditos-contenedor p{
+#creditos-contenedor p
+{
     display: inline-flex;
 }
 
-#creditos-contenedor a{
+#creditos-contenedor a
+{
     display: inline-flex;
 }
 
-#creditos-contenedor img{
+#creditos-contenedor img
+{
     display: flex;
+
     margin: auto;
 }
 
@@ -131,4 +136,3 @@ body
 
     cursor: pointer;
 }
-

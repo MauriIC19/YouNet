@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*
+{
+    font-family: 'Dosis';
+}
+
+input
+{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus
+{
+    border: 1px solid #ced4da !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#logos-navbar img
+{
+    margin: 0 0 0 .5rem;
+}
+
+.cover
+{
+    background-image: url('../img/conflictos-cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cover
+{
+    color: white !important;
+}
+
+.cover-bg
+{
+    background: rgba(40, 40, 40, .7);
+}
+
+#conflictos-contenedor a
+{
+    cursor: pointer;
+
+    color: #007bff;
+}
+
+#conflictos-contenedor a:hover
+{
+    text-decoration: none;
+
+    color: #0056b3;
+}
+
+.card-deck .card
+{
+    display: flex;
+
+    min-width: calc(25% - 30px) !important;
+    max-width: calc(25% - 30px) !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body
+{
+    flex: initial !important;
+}
+
+.titulo-problema
+{
+    margin-bottom: 15px;
+}
+
+.oculto
+{
+    display: none;
+}
+
+
+#soluciones-contenedor .card
+{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+#soluciones-contenedor p
+{
+    font-size: 1rem !important;
+
+    margin: 0 !important;
+}

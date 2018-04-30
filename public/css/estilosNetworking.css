@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*
+{
+    font-family: 'Dosis';
+}
+
+input
+{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus
+{
+    border: 1px solid #ced4da !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#logos-navbar img
+{
+    margin: 0 0 0 .5rem;
+}
+
+.cover
+{
+    background-image: url('../img/networking-cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cover
+{
+    color: white !important;
+}
+
+.cover-bg
+{
+    background: rgba(40, 40, 40, .7);
+}
+
+#conflictos-contenedor a
+{
+    cursor: pointer;
+
+    color: #007bff;
+}
+
+#conflictos-contenedor a:hover
+{
+    text-decoration: none;
+
+    color: #0056b3;
+}
+
+.card-deck{
+    margin: 0 !important;
+}
+
+.card-deck .card
+{
+    display: flex;
+
+    min-width: calc(20% - 30px) !important;
+    max-width: calc(20% - 30px) !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+
+}
+
+.card p, .card a, .card h5{
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body
+{
+    flex: initial !important;
+}
+
+#formulario-registro button{
+    display: flex !important;
+    margin-left: auto;
+}
+
+

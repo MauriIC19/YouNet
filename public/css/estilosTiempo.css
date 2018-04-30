@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*
+{
+    font-family: 'Dosis';
+}
+
+input
+{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus
+{
+    border: 1px solid #ced4da !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#logos-navbar img
+{
+    margin: 0 0 0 .5rem;
+}
+
+.cover
+{
+    background-image: url('../img/tiempo-cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cover
+{
+    color: white !important;
+}
+
+.cover-bg
+{
+    background: rgba(40, 40, 40, .7);
+}
